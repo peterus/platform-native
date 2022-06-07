@@ -8,8 +8,10 @@
     "maximum_ram_size": 99999999,
     "maximum_size": 99999999
   },
-  "frameworks": ["arduino"],
+  "frameworks": [
+    "arduino"
+  ],
   "name": "Portduino",
-  "url": "https://github.com/geeksville/framework-portduino",
+  "url": "https://github.com/peterus/framework-portduino",
   "vendor": "Geeksville Industries, LLC"
 }
