@@ -31,7 +31,7 @@ platform = env.PioPlatform()
 board = env.BoardConfig()
 core = board.get("build.core")
 
-FRAMEWORK_DIR = platform.get_package_dir("framework-portduino")
+FRAMEWORK_DIR = platform.get_package_dir("framework-ESPtux")
 assert os.path.isdir(FRAMEWORK_DIR)
 
 env.Append(
