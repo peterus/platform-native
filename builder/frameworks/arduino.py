@@ -58,8 +58,8 @@ env.Append(
     ],
 
     CPPPATH=[
-        os.path.join(FRAMEWORK_DIR, "cores", "portduino"),
-        os.path.join(FRAMEWORK_DIR, "cores", "portduino", "FS"),
+        os.path.join(FRAMEWORK_DIR, "cores", "ESPtux"),
+        os.path.join(FRAMEWORK_DIR, "cores", "ESPtux", "FS"),
         os.path.join(FRAMEWORK_DIR, "cores", "arduino", "api")
         # os.path.join(FRAMEWORK_DIR, "cores", core),
         # os.path.join(FRAMEWORK_DIR, "cores", core, "cores"),
