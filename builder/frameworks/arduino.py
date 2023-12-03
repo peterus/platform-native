@@ -37,7 +37,8 @@ assert os.path.isdir(FRAMEWORK_DIR)
 env.Append(
     CPPDEFINES=[
         ("ARDUINO", 4403), # FIXME, find how these numbers are assigned!
-        "PORTDUINO" # FIXME, should we use some different convention?
+        "ESPTUX", # FIXME, should we use some different convention?
+        "HOST"
         # ("CONFIG_MANUFACTURER", '\\"ASR\\"'),
         # ("CONFIG_DEVICE_MODEL", '\\"6501\\"'),
         # ("CONFIG_VERSION", '\\"v4.0\\"'),
